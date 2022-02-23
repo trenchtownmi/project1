@@ -35,9 +35,11 @@
               </a>
               <input class="header__search" type="text" />
             </div>
-            <div class="header__callback-block">
-              <span class="callback-number">8 (812) 123-45-67</span>
-              <a class="callback-btn" href="tel:+78121234567"
+            <div class="header__callback-block callback-block">
+              <span class="callback-number callback-block-number"
+                >8 (812) 123-45-67</span
+              >
+              <a class="callback-btn callback-block-btn" href="tel:+78121234567"
                 >Обратный звонок</a
               >
             </div>
@@ -57,46 +59,68 @@
         </div>
       </header>
       <main class="main">
-        <section class="offers">
+        <section class="offers products">
           <div class="container">
             <div class="offers-title section-title">
               Специальные предложения
             </div>
-            <div class="offers__cards">
-              <div class="offers__cards-item">
+            <div class="offers__cards product-cards">
+              <div class="offers__cards-item product-cards-item">
                 <img src="assets/offer-img.png" alt="photo images" />
-                <p class="offers__cards-item-descr">
+                <p class="offers__cards-item-descr product-cards-item-descr">
                   Парикмахерское кресло «Норм» гидравлическое
                 </p>
-                <h3 class="offers__cards-item-price">9 900 ₽</h3>
-                <a class="offers__cards-item-btn" href="#">Купить</a>
+                <h3 class="offers__cards-item-price product-cards-item-price">
+                  9 900 ₽
+                </h3>
+                <a
+                  class="offers__cards-item-btn product-cards-item-btn"
+                  href="#"
+                  >Купить</a
+                >
               </div>
 
-              <div class="offers__cards-item">
+              <div class="offers__cards-item product-cards-item">
                 <img src="assets/offer-img.png" alt="photo images" />
-                <p class="offers__cards-item-descr">
+                <p class="offers__cards-item-descr product-cards-item-descr">
                   Парикмахерское кресло «Норм» гидравлическое
                 </p>
-                <h3 class="offers__cards-item-price">9 900 ₽</h3>
-                <a class="offers__cards-item-btn" href="#">Купить</a>
+                <h3 class="offers__cards-item-price product-cards-item-price">
+                  9 900 ₽
+                </h3>
+                <a
+                  class="offers__cards-item-btn product-cards-item-btn"
+                  href="#"
+                  >Купить</a
+                >
               </div>
-
-              <div class="offers__cards-item">
+              <div class="offers__cards-item product-cards-item">
                 <img src="assets/offer-img.png" alt="photo images" />
-                <p class="offers__cards-item-descr">
+                <p class="offers__cards-item-descr product-cards-item-descr">
                   Парикмахерское кресло «Норм» гидравлическое
                 </p>
-                <h3 class="offers__cards-item-price">9 900 ₽</h3>
-                <a class="offers__cards-item-btn" href="#">Купить</a>
+                <h3 class="offers__cards-item-price product-cards-item-price">
+                  9 900 ₽
+                </h3>
+                <a
+                  class="offers__cards-item-btn product-cards-item-btn"
+                  href="#"
+                  >Купить</a
+                >
               </div>
-
-              <div class="offers__cards-item">
+              <div class="offers__cards-item product-cards-item">
                 <img src="assets/offer-img.png" alt="photo images" />
-                <p class="offers__cards-item-descr">
+                <p class="offers__cards-item-descr product-cards-item-descr">
                   Парикмахерское кресло «Норм» гидравлическое
                 </p>
-                <h3 class="offers__cards-item-price">9 900 ₽</h3>
-                <a class="offers__cards-item-btn" href="#">Купить</a>
+                <h3 class="offers__cards-item-price product-cards-item-price">
+                  9 900 ₽
+                </h3>
+                <a
+                  class="offers__cards-item-btn product-cards-item-btn"
+                  href="#"
+                  >Купить</a
+                >
               </div>
             </div>
           </div>
@@ -139,7 +163,167 @@
             </div>
           </div>
         </section>
+        <div class="brands">
+          <div class="container">
+            <div class="brands__cards">
+              <div class="brands__cards-item">
+                <img src="assets/brands-img.png" alt="brand-item-image" />
+              </div>
+              <div class="brands__cards-item">
+                <img src="assets/brands-img.png" alt="brand-item-image" />
+              </div>
+              <div class="brands__cards-item">
+                <img src="assets/brands-img.png" alt="brand-item-image" />
+              </div>
+              <div class="brands__cards-item">
+                <img src="assets/brands-img.png" alt="brand-item-image" />
+              </div>
+              <div class="brands__cards-item">
+                <img src="assets/brands-img.png" alt="brand-item-image" />
+              </div>
+              <div class="brands__cards-item">
+                <img src="assets/brands-img.png" alt="brand-item-image" />
+              </div>
+              <div class="brands__cards-item">
+                <img src="assets/brands-img.png" alt="brand-item-image" />
+              </div>
+              <div class="brands__cards-item">
+                <img src="assets/brands-img.png" alt="brand-item-image" />
+              </div>
+              <div class="brands__cards-item">
+                <img src="assets/brands-img.png" alt="brand-item-image" />
+              </div>
+              <div class="brands__cards-item">
+                <img src="assets/brands-img.png" alt="brand-item-image" />
+              </div>
+              <div class="brands__cards-item">
+                <img src="assets/brands-img.png" alt="brand-item-image" />
+              </div>
+              <div class="brands__cards-item">
+                <img src="assets/brands-img.png" alt="brand-item-image" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="recently products">
+          <div class="container">
+            <div class="recently-title section-title">Вы недавно смотрели</div>
+            <div class="recently__cards product-cards">
+              <div class="recently__cards-item product-cards-item">
+                <img src="assets/offer-img.png" alt="photo images" />
+                <p class="recently__cards-item-descr product-cards-item-descr">
+                  Парикмахерское кресло «Норм» гидравлическое
+                </p>
+                <h3 class="recently__cards-item-price product-cards-item-price">
+                  9 900 ₽
+                </h3>
+                <a
+                  class="recently__cards-item-btn product-cards-item-btn"
+                  href="#"
+                  >Купить</a
+                >
+              </div>
+
+              <div class="offers__cards-item product-cards-item">
+                <img src="assets/offer-img.png" alt="photo images" />
+                <p class="offers__cards-item-descr product-cards-item-descr">
+                  Парикмахерское кресло «Норм» гидравлическое
+                </p>
+                <h3 class="offers__cards-item-price product-cards-item-price">
+                  9 900 ₽
+                </h3>
+                <a
+                  class="offers__cards-item-btn product-cards-item-btn"
+                  href="#"
+                  >Купить</a
+                >
+              </div>
+              <div class="offers__cards-item product-cards-item">
+                <img src="assets/offer-img.png" alt="photo images" />
+                <p class="offers__cards-item-descr product-cards-item-descr">
+                  Парикмахерское кресло «Норм» гидравлическое
+                </p>
+                <h3 class="offers__cards-item-price product-cards-item-price">
+                  9 900 ₽
+                </h3>
+                <a
+                  class="offers__cards-item-btn product-cards-item-btn"
+                  href="#"
+                  >Купить</a
+                >
+              </div>
+              <div class="offers__cards-item product-cards-item">
+                <img src="assets/offer-img.png" alt="photo images" />
+                <p class="offers__cards-item-descr product-cards-item-descr">
+                  Парикмахерское кресло «Норм» гидравлическое
+                </p>
+                <h3 class="offers__cards-item-price product-cards-item-price">
+                  9 900 ₽
+                </h3>
+                <a
+                  class="offers__cards-item-btn product-cards-item-btn"
+                  href="#"
+                  >Купить</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <div class="footer__socials">
+              <a class="footer__socials-link" href="#">
+                <div class="footer__socials-item">
+                  <img src="assets/social-icons/youtube.svg" alt="youtube" />
+                </div>
+              </a>
+
+              <a class="footer__socials-link" href="#">
+                <div class="footer__socials-item">
+                  <img src="assets/social-icons/vk.svg" alt="vk" />
+                </div>
+              </a>
+
+              <a class="footer__socials-link" href="#">
+                <div class="footer__socials-item">
+                  <img src="assets/social-icons/facebook.svg" alt="facebook" />
+                </div>
+              </a>
+
+              <a class="footer__socials-link" href="#">
+                <div class="footer__socials-item">
+                  <img
+                    src="assets/social-icons/instagram.svg"
+                    alt="instagram"
+                  />
+                </div>
+              </a>
+            </div>
+            <div class="adress">198555, Невский пр. 140, офис 140</div>
+            <div class="footer__callback-block callback-block">
+              <span class="callback-number callback-block-number"
+                >8 (812) 123-45-67</span
+              >
+              <a class="callback-btn callback-block-btn" href="tel:+78121234567"
+                >Обратный звонок</a
+              >
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="copyright">
+        <div class="container">
+          <div class="copyright__inner">
+            <div class="copyright__text">
+              Лучший магазин (с) 2021 Все права защищены. Интернет-магазин
+              оборудования для салонов красоты
+            </div>
+            <div class="copyright__privacy">Политика конфиденциальности</div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
