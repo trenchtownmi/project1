@@ -1,0 +1,328 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+input {
+  outline: none;
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  line-height: 114.28%;
+}
+
+input::-webkit-input-placeholder {
+  color: #c4c4c4;
+}
+
+input:-ms-input-placeholder {
+  color: #c4c4c4;
+}
+
+input::-ms-input-placeholder {
+  color: #c4c4c4;
+}
+
+input::placeholder {
+  color: #c4c4c4;
+}
+
+.header__nav {
+  background-color: #efefef;
+  padding: 17px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header__nav-link {
+  font-size: 14px;
+  line-height: 114.28%;
+  color: #333333;
+}
+.header__nav-link:not(:last-child) {
+  margin-right: 30px;
+}
+.header__main {
+  padding: 20px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header__main .header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__main .header-logo__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 116.6%;
+  letter-spacing: 0.1em;
+  color: #f13c6e;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+.header__search-block {
+  background: #efefef;
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 250px;
+}
+.header__search-block .header__search {
+  outline: none;
+  height: 40px;
+  border: none;
+  background: transparent;
+}
+.header__search-block img {
+  margin-left: 20px;
+  margin-top: 3px;
+  margin-right: 5px;
+}
+.header__callback-block {
+  font-size: 16px;
+  line-height: 118.75%;
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__callback-block .callback-btn {
+  display: inline-block;
+  padding: 13px 27px;
+  border: 2px solid #f13c6e;
+  border-radius: 40px;
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 40px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+.header__callback-block .callback-btn:hover {
+  border-color: #333333;
+}
+.header__hero {
+  background-image: url(../assets/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  color: #fff;
+}
+.header__hero .header__hero-content {
+  padding-top: 217.43px;
+}
+.header__hero .header__hero-content-title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 116.66%;
+  margin-bottom: 56px;
+}
+.header__hero .header__hero-content-descr {
+  margin-bottom: 56px;
+  font-size: 14px;
+  line-height: 143%;
+}
+.header__hero .header__hero-content-btn {
+  color: inherit;
+  padding: 14px 39px;
+  background: #f13c6e;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  margin-bottom: 218px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+.header__hero .header__hero-content-btn:hover {
+  border-color: #333333;
+}
+
+.main {
+  background: #efefef;
+}
+
+.section-title {
+  margin-bottom: 38px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 116.66%;
+  color: #000000;
+}
+
+.offers {
+  padding-top: 80px;
+}
+.offers .offers__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.offers .offers__cards-item {
+  background: #ffffff;
+  text-align: center;
+  padding: 25px 30px;
+}
+.offers .offers__cards-item img {
+  max-width: 125px;
+  height: 166px;
+  margin-bottom: 10px;
+}
+.offers .offers__cards-item-price {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 119.04%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+.offers .offers__cards-item-descr {
+  max-width: 195px;
+  font-size: 14px;
+  line-height: 142.85%;
+  text-align: center;
+  color: #333333;
+}
+.offers .offers__cards-item-btn {
+  padding: 9px 40px;
+  background: #f13c6e;
+  border-radius: 30px;
+  font-size: 14px;
+  line-height: 114.28%;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  -webkit-transition: background 0.2s ease;
+  transition: background 0.2s ease;
+}
+.offers .offers__cards-item-btn:hover {
+  background: #333333;
+}
+
+.merits {
+  padding: 100px 0;
+}
+.merits .merits__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.merits .merits__inner .merits__card {
+  background-color: #f13c6e;
+  width: 540px;
+  padding: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.merits .merits__inner .merits__card-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.merits .merits__inner .merits__card-descr {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 25px 0;
+}
+.merits .merits__inner .merits__card-btn {
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  padding: 9px 29px;
+  background: #f13c6e;
+  border: 2px solid #ffffff;
+  border-radius: 30px;
+  -webkit-transition: border-color 0.2s ease;
+  transition: border-color 0.2s ease;
+}
+.merits .merits__inner .merits__card-btn:hover {
+  border-color: #333333;
+}
+.merits .merits__inner .marits__card-input-inner {
+  background-color: #fff;
+  padding: 9px 0;
+  padding-left: 25px;
+  border-radius: 30px;
+}
+
+/*# sourceMappingURL=main.css.map */
